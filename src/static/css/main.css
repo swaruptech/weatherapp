@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(45deg, #d3934b, #b31217);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.default-weather{
+    background-image: url('../img/default.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    height: 80%;
+    box-shadow: 5px 10px 8px rgb(31, 31, 31);
+}
+
+.clear-sky{
+    background-image: url('../img/clear.png');
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no-repeat;
+    height: 80%;
+    box-shadow: 5px 10px 8px rgb(31, 31, 31);
+}
+
+
+.broken-clouds{
+    background-image: url('../img/brokenclouds.png');
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no-repeat;
+    height: 80%;
+    box-shadow: 5px 10px 8px rgb(31, 31, 31);
+}
+
+.haze{
+    background-image: url('../img/haze.png');
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no-repeat;
+    height: 80%;
+    box-shadow: 5px 10px 8px rgb(31, 31, 31);
+}
+
+.text-container{
+    position: relative;
+    text-align: center;
+    font-size: 1em;
+    line-height: 4em;
+    top: 70%;
+    margin: 3em;
+}
+
+.weather-card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: #0f0c29;
+    color: white;  
+    margin: 0;
+    height: 70%;   
+    padding: 3em;
+    box-shadow: 5px 10px 8px rgb(31, 31, 31);
+}
+
+.weather-form{
+    position: relative;
+    margin-bottom: 6em;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid #c31432;
+    margin: 1em;
+    background: transparent;
+    color: whitesmoke;
+}
+
+button{
+    display: block;
+    margin: 1em;
+    margin-top: 2em;
+    padding: 1em;
+    background: #c31432;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.weather-info{
+    position: relative;
+    margin: 1em;
+    margin-top: -4em;
+    line-height: 2.7em;
+    font-size: 1.2em;
+}
+
+.weather-info p{
+    color: #df2b49;
+}
+
+p span{
+    color: white;
+}
